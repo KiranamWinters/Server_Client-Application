@@ -1,0 +1,26 @@
+
+# How to make a Server
+    * Init WinSock
+    * Create a Socket
+    * Bind Socket
+    * Listen for a client
+    * Accept
+    * Recv and Send Data
+    * Exit Connection
+
+# How to make a client
+
+    * Init WinSock
+    * Create Socket
+    * Connect to Server
+    * Send and recv Data
+    * Exit Connection
+
+NOTE (WIN32_LEAN_AND_MEAN):
+    if using WinSock.h and Windows.h together you have to use #define WIN32_LEAN_AND_MEAN
+
+    
+
+
+
+
